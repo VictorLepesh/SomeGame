@@ -1,0 +1,27 @@
+{
+  "name": "somegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorLepesh/SomeGame.git"
+  },
+  "author": "Victor Lepesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorLepesh/SomeGame/issues"
+  },
+  "homepage": "https://github.com/VictorLepesh/SomeGame#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

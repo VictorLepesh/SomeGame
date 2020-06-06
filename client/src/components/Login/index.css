@@ -15,6 +15,13 @@
 }
 
 .loginArea > .submitButton {
+    
     margin-top: 5px;
-    background-color: green;
+    background-color: white;
+}
+
+.loginArea > label {
+    padding-left: 15px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
 }

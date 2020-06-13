@@ -1,4 +1,5 @@
 import React from 'react';
+import Cube from './../Cube/Cube.js'
 
 export default (props) => {
     return (
@@ -12,6 +13,7 @@ export default (props) => {
                 <input type='submit' value='submity' className='submitButton'></input>
                 </fieldset>
             </form>
+            <Cube/>
         </div>
     )
 }

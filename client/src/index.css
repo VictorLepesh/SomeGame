@@ -1,4 +1,18 @@
-@import './App.css';
 @import './components/Login/index.css';
-@import './components/Cube/index.css'
 
+* { 
+    margin: 0px; 
+    padding: 0px; 
+    border: 0px;
+    font-size: 100%; 
+    line-height: 1;
+    box-sizing: border-box;
+    line-height: 1.6em;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+    background-color: gray;
+}
